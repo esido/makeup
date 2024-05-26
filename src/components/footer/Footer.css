@@ -1,0 +1,78 @@
+.footer {
+  margin-top: 80px;
+  background-color: #f6f6f6;
+  padding: 60px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer-content-info:nth-child(2) {
+  margin-left: 280px;
+}
+
+.footer-content-info > h4 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footer-content-info > h3 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.footer-content-info > p {
+  margin-top: 10px;
+  width: 270px;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.footer-form {
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.footer-form > input {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+}
+
+.footer-form > button {
+  border: none;
+  color: transparent;
+}
+
+.footer-content-link {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-list-link {
+  font-family: "Sofia Sans", sans-serif;
+  color: #000;
+}
+
+.footer-list-link:hover {
+  border-bottom: 1px solid #000;
+}

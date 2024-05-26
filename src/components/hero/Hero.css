@@ -1,0 +1,52 @@
+.hero-banner-link {
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  z-index: 1;
+  width: 940px;
+  height: 586px;
+  background-image: url("https://images.ctfassets.net/eoaaqxyywn6o/3Fy8DlsAEQ8j5mPlk38kle/59fcb989148b6633d5cecd40cc8b7fc8/Hero_Banner-EN.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.hero-banner {
+  margin-left: -100px;
+  bottom: 30px;
+  z-index: 2;
+  padding: 76px;
+  background-color: rgb(213, 161, 255);
+}
+
+.hero-banner_title {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+}
+
+.hero-banner_message {
+  margin-top: 6px;
+  font-family: "Sofia Sans", sans-serif;
+  color: #000;
+  font-size: 18px;
+}
+
+.hero-banner-btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Sofia Sans", sans-serif;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 16px;
+}

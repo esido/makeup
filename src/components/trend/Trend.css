@@ -1,0 +1,66 @@
+.trend-wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.trend-block {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-block .trend-block-content_message {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.trend-block:hover .trend-block-content_message {
+  max-height: 100px;
+}
+
+.trend-block:hover .trend-image {
+  height: 340px;
+}
+
+.trend-block-content {
+  padding: 26px;
+  flex-grow: 1;
+}
+
+.trend-block-content_title {
+  max-width: 388px;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.trend-block-content_message {
+  font-family: "Sofia Sans", sans-serif;
+  max-width: 388px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.trend-block-content-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+  align-self: center;
+}
+
+.trend-block-content-btn > span {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}

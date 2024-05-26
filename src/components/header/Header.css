@@ -1,0 +1,144 @@
+.header-add-wrapper {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.header-add {
+  color: #fff;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 5px 0;
+  background-color: #e6e6e6;
+}
+
+.header-menu-block {
+  padding: 10px 40px 10px 10px;
+}
+.header-menu-block-divider {
+  border-right: 1px solid rgb(167, 167, 167);
+}
+
+.header-menu-block a {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.header-menu-block-item {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.divider {
+  width: 1px;
+  height: 12px;
+  background-color: #000;
+  margin: 0 5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.nav_input {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  border: 1px solid #00000026;
+  border-radius: 1.5rem;
+  padding: 5px;
+}
+
+.nav_input:hover {
+  border: 1px solid #000;
+  transition: all 0.5s;
+}
+
+.nav_input > input {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  width: 850px;
+  padding: 10px;
+}
+
+.nav_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-items {
+  padding-bottom: 20px;
+}
+
+.nav-items_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-items_link {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+
+.nav-items_link:hover {
+  border-bottom: 1px solid #000;
+}
+
+.nav-items_links-bold {
+  font-weight: bold;
+}
+
+.counter {
+  position: absolute;
+  background-color: #000;
+  padding: 3px 5px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.wishlist-link:hover {
+  fill: red;
+}
+
+.cart-link:hover {
+  fill: #949494;
+}
+
+@media only screen and (max-width: 375) {
+  .header-add-wrapper {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .header-add {
+    font-size: 5px;
+    text-align: center;
+  }
+}

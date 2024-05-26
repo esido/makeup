@@ -1,0 +1,49 @@
+.liked-product {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.liked-products-card-title {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.liked-products-card-price {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.liked-products-card-action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  gap: 150px;
+  margin-bottom: 50px;
+}
+
+.liked-products-card-action-bar > button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.liked-products-card-add-btn > svg {
+  width: 30px;
+  height: 30px;
+}
+
+.liked-products-card-add-btn > svg:hover {
+  fill: red;
+}
+
+.liked-products-card-add-btn:active {
+  fill: #636262;
+}

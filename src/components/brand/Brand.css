@@ -1,0 +1,43 @@
+.brand {
+  margin-top: 120px;
+}
+
+.brand-title {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+}
+
+.brand-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: 35px;
+}
+
+.brand-content-block img {
+  width: 245px;
+}
+
+.brand-content::-webkit-scrollbar {
+  height: 5px;
+  background-color: rgb(185, 185, 185);
+}
+
+.brand-content::-webkit-scrollbar-thumb {
+  height: 5px;
+  margin-top: 10px;
+  background-color: #000;
+}
+
+.brand-content-name {
+  display: block;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 50px;
+}

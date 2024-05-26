@@ -1,0 +1,55 @@
+.palette-products {
+  margin-top: 60px;
+}
+
+.palette-products-title {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+}
+
+.palette-products-content {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.palette-products-card-title {
+  width: 290px;
+  height: 50px;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.palette-products-card-price {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.palette-products-card-action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 50px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.palette-products-card-action-bar > button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.top-products-card-add-btn:active {
+  fill: #636262;
+}
